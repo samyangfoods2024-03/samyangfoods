@@ -1,0 +1,20 @@
+@import url(common.css);
+
+
+button, input {
+  outline: none;
+  border: none;
+  color: inherit;
+}
+ul, li {
+  list-style-type: none;
+}
+
+.center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+

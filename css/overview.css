@@ -284,10 +284,11 @@ h2 {
 .circle-wrap .white {
   background: white;
   position: relative;
-  
+  z-index: 100;
 }
 .circle-wrap .orange {
   position: relative;
+  z-index: 5000;
 }
 
 .circle-wrap  h3 {
@@ -320,9 +321,19 @@ h2 {
   background: rgba(255, 106, 0, .87);
   color: white;
   padding: 15px 10px;
-  border-radius: 5px;
+  border-radius: 15px;
   display: inline-block;
+  cursor: pointer;
+ 
 }
+
+
+.circle-wrap .homepage .go:hover {
+  background: rgba(255, 72, 0, 0.849);
+  text-decoration: underline;
+}
+
+
 .circle-wrap .post .address {
   font-size: 0.9em;
   padding: 0 0 7px 0;
@@ -398,14 +409,17 @@ h2 {
   background: rgba(255, 106, 0, .87);
   color: white;
   width: 220px;
-  text-indent: 3px;
-
+  text-indent: 8px;
   padding: 10px 5px;
   border: 1px solid rgba(255, 106, 0, .87);
   border-radius: 15px;
-
+  font-size: 15px;
 }
 
+.receipt-warp .standard .standard-box .standard-wrap .standard-bottom-text:hover {
+  background: rgba(255, 72, 0, 0.849);
+  text-decoration: underline;
+}
 
 .receipt-warp .standard .standard-box .standard-imgbox {
  
@@ -467,5 +481,39 @@ h2 {
 }
 
 
+/* 반응형 웹 디자인 */
+/* 노트북 해상도 1600px 미만 */
 
+
+/* 태블릿 L사이즈, 노트북 s사이즈 해상도 */
+@media (max-width: 1024px) {
+  .top-header #img-box {
+    width: 100%;
+  }
+
+  h1 .header-warp {
+    width: 100%;
+  }
+
+  h1 .small {
+    font-weight: 0.9em;
+  }
+
+  .help-nav .helpbox .help {
+    font-size: 11px;
+  }
+
+
+
+
+
+
+}
+
+/* 768px 아이패드미니 */
+/* @media (max-width: 768px)  */
+
+
+/* 모바일 */
+/* @media (max-width: 414px)  */
 
