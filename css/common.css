@@ -32,12 +32,10 @@ h1,h2,h3,h4,h5,h6,a,p,span,ul,ol{
   padding: 0;
 }
 
-
-
 /* 공통헤더 */
 header{            
   width: 100%;
-  border-bottom: 1px solid orangered;
+  /* border-bottom: 1px solid orangered; */
 }
 header .inner{
   display: flex;
