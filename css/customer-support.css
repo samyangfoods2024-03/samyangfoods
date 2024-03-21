@@ -72,9 +72,10 @@ section.big#middle .info#place input{
     border: 1px solid #000;
     position: relative;
     left: -5px;
+    bottom: -3px;
 }
 section.big#middle .info#place label#inside{
-    padding-right: 10px;
+    padding-right: 15px;
 }
 
 /* email */
