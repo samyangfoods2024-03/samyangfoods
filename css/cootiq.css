@@ -64,7 +64,7 @@ ul, li {
 }
 
 .main-menu .items {
-
+  cursor: pointer;
   width: 25%;
 }
 
@@ -138,10 +138,19 @@ a#more {
   margin: 0 auto;
   font-size: 1.1rem;
   position: relative;
-  left: 50%;
+  left: 46.5%;
   padding: 6px 30px;
   border-radius: 30px;
+  cursor: pointer;
 }
+a#more:hover {
+  
+  text-decoration: underline;
+  font-size: 1.1em;
+  background: rgba(255, 115, 0, 0.808);
+  color: white;  
+}
+
 .long-frame {
   width: 1980px;
   height: 8020px;
@@ -165,6 +174,8 @@ a#more {
 .bottom-wrap {
   width: 1140px;
   margin: 0 auto;
+  position: relative;
+  left: 90px;
 }
 
 .bottom-wrap .media {
@@ -183,7 +194,94 @@ a#more {
   padding-bottom: 30px;
 }
 
-/* .bottom-wrap .media-list {
-  width: 60%;
+.bottom-wrap .media-list {
+  width: 70%;
   margin: 0 ;
-} */
+
+  display: flex;
+}
+.bottom-wrap .media-list .media-wrap {
+  width: 50%;
+  cursor: pointer;
+  
+}
+.bottom-wrap .media-list .media-frame {
+  width: 360px;
+  height: 203px;
+  justify-content: space-between;
+  position: relative;
+ 
+}
+.bottom-wrap .media-list .media-frame .media-img-first {
+  background: url('../img/cootiq/bottomimg21.jpeg') no-repeat center/cover;
+  width: 360px;
+  height: 203px;
+  position: relative;
+}
+.bottom-wrap .media-list .media-frame .media-img-second {
+  background: url('../img/cootiq/bottomimg2.jpeg') no-repeat center/cover;
+  width: 360px;
+  height: 203px;
+  position: relative;
+}
+
+.bottom-wrap .media-list .title-date {
+  display: flex;
+  padding: 20px 0;
+  position: relative;
+  width: 360px;
+  border-bottom: 1px solid #aeaeae;
+}
+.bottom-wrap .media-list .title-date:nth-child(1) {
+  right: -100px;
+  border: 1px solid #000;
+}
+.bottom-wrap .media-list .title-date .title {
+  color: #333;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.bottom-wrap .media-list .title-date .date {
+  position: absolute;
+    top: 10px;
+    right: 5px;
+    color: #aeaeae;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.bottom-wrap .media-list .bottom-text {
+  height: 40px;
+  padding: 15px 0 40px 0;
+  color: #666;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  width: 360px;
+}
+.button-wrap > div:hover {
+  text-decoration: underline;
+}
+
+.more {
+     color: #ff6400;
+     border: 1px solid #ff6400;
+    width: 120px;
+    margin: 60px auto;
+    font-size: 0.9rem;
+    position: relative;
+    left: -17%;
+    padding: 6px 30px;
+    border-radius: 30px;
+    padding-right: 0px;
+    cursor: pointer;
+  }
+
+  .more:hover {
+    text-decoration: underline;
+    font-size: 1.1em;
+    background: rgba(255, 115, 0, 0.808);
+    color: white; 
+  }
