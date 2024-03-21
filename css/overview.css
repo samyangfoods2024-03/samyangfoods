@@ -89,6 +89,7 @@ h1 .small {
   text-indent: -30px;
   padding-right: 0px;
   font-weight: 500;
+  cursor: pointer;
 }
 .help-nav .helpbox .long::after {
   display: block;
