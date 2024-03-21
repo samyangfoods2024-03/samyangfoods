@@ -80,25 +80,25 @@ section.big#middle .info#place label#inside{
 /* email */
 section.big#middle .info#email input+span{
     position: absolute;
-    left: 287px;
+    left: 312px;
     font-size: 23px;
     bottom: 15px;
     
 }
 section.big#middle .info#email input+span+input{
     position: absolute;
-    left: 320px;
+    left: 338px;
 }
 section.big#middle .info#email select#mail{
     position: absolute;
-    left: 470px;
+    left: 522px;
 }
 section.big#middle .info#email select{
     height: 35px;
 }
 section.big#middle .info#email button{
     position: absolute;
-    left: 570px;
+    left: 625px;
     background-color: #444;
     color: #fff;
     line-height: 30px;

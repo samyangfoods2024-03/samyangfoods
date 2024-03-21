@@ -159,6 +159,8 @@
 /* video */
 .youtubevideo{
     margin-top: 70px;
+    width: 100%;
+    overflow: hidden;
 }
 
 /* community */
