@@ -13,10 +13,11 @@
     color: #eee;
 
     padding: 5%;
-    width: 900px;
+    width: 800px;
+    height: 350px;
     position: absolute;
-    left: 230px;
-    top: 120px;
+    left: 210px;
+    top: 110px;
 }
 .base .container .contents{
     margin-bottom: 30px;
@@ -28,7 +29,7 @@
 }
 .base .container h2.contents{
     font-weight: normal;
-    font-size: 50px;
+    font-size: 45px;
     line-height: 1.3;
 }
 #angleL{
